@@ -9,7 +9,7 @@
     "preinstall": "chmod +x ./node_modules/.bin/nodemon",
     "start": "node index.js",
     "dev":"nodemon index.js",
-    "build":"npm run"
+    "build": "npm run build --prefix Frontend"
   },
   "repository": {
     "type": "git",
