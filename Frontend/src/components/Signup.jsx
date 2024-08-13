@@ -28,10 +28,10 @@ function Signup() {
             // alert("signup successfully");
             toast.success('signup successfully');
             navigate(from,{replace:true});
-
+            window.location.reload();
           }
           localStorage.setItem("Users",JSON.stringify(res.data));
-          // window.location.reload("/");
+          
          }).catch((err)=>{
           if(err.response){
             console.log(err);
